@@ -1,48 +1,70 @@
-body{font-family: 'Roboto';
-line-height: 1,71;}
-a{color: black;
-text-decoration: none;}
-a:hover{color: #2196F3;}
-.header-link{font-family: 'Raleway';
+body
+{font-family: 'Roboto';
+line-height: 1,71;
+}
+a
+{color: black;
+text-decoration: none;
+}
+a:hover
+{color: #2196F3;
+}
+.header-link
+{font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.87;}
+    line-height: 1.87;
+}
 .nav-list-item,.header-link-item,.hero-button,.mail{color: #2196F3;}
-.nav-list{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;}
-.mail{ 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;}        
-.telephone{   
+.nav-list
+{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;}
-.hero-title{ 
+}
+.mail
+{ 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}        
+.telephone
+{   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.hero-title
+{ 
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;} 
-.hero-button{ 
+    line-height: 1,36;
+} 
+.hero-button
+{ 
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.87;}           
-.section-title{    
+    line-height: 1.87;
+}           
+.section-title
+{    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
-.section-text{   
+    text-transform: uppercase;
+}
+.section-text
+{   
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;   
-    color: #757575;}
+    color: #757575;
+}
 
     h2{font-weight: 700;
     font-size: 36px;
@@ -50,27 +72,35 @@ a:hover{color: #2196F3;}
     text-align: center;
     letter-spacing: 0.03em;}
 
-.card-name{   
+.card-name
+{   
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;} 
-.card-description{    
+.card-description
+{    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;      
-    color: #757575;}           
+    color: #757575;
+}           
 footer>a{  
     font-weight: 700;
     font-size: 26px;
     line-height:1.19;
-    color: #2196F3;}
-.footer-adress{
+    color: #2196F3;
+}
+.footer-adress
+{
     font-weight: 400;
     font-size: 14px;
     line-height:  1.71; 
-    color: #a5a0a0;}
-footer>p{
+    color: #a5a0a0;
+}
+footer>p
+{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);}  
+    color: rgba(255, 255, 255, 0.6);
+}  
