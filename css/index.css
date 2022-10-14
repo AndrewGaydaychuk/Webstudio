@@ -9,28 +9,28 @@ text-decoration: none;
 a:hover
 {color: #2196F3;
 }
-.header-link
+.Web
 {font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.87;
 }
-.nav-list-item,.header-link-item,.hero-button,.mail{color: #2196F3;}
-.nav-list
+.hero-button,.header-logo,.footer-logo{color: #2196F3;}
+.header-pages
 {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.mail
+.header-contact
 { 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }        
-.telephone
+.contact-link
 {   
     font-weight: 500;
     font-size: 14px;
@@ -43,6 +43,7 @@ a:hover
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36;
+    color: #FFFFFF;
 } 
 .hero-button
 { 
@@ -50,7 +51,7 @@ a:hover
     font-size: 16px;
     line-height: 1.87;
 }           
-.section-title
+.qualities-title
 {    
     font-weight: 700;
     font-size: 14px;
@@ -58,7 +59,7 @@ a:hover
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.section-text
+.qualities-text
 {   
     font-weight: 400;
     font-size: 14px;
@@ -72,12 +73,12 @@ a:hover
     text-align: center;
     letter-spacing: 0.03em;}
 
-.card-name
+.team-name
 {   
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;} 
-.card-description
+.team-position
 {    
     font-weight: 400;
     font-size: 16px;
@@ -104,3 +105,6 @@ footer>p
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
 }  
+.footer-link{
+    color: rgba(255, 255, 255, 0.6);
+}
