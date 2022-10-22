@@ -1,0 +1,20 @@
+.container{
+border: 2px solid seagreen;
+display: flex;
+justify-content: flex-start;
+height: 700px;
+align-items: center;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+}
+
+.box{
+    border: 7px dashed purple;
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    width: 100px;
+}
+.box:first-child{
+    margin-left: 0px;
+}
