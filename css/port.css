@@ -63,16 +63,18 @@ a{
     display: flex;
     justify-content: center;
 }
-.main-list{
+.main-list,.main-lis{
     margin-left: 8px;
+}
+.main-buttons:hover{
+    color: white;
+    background: #2196F3;
 }
 .section-cards{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 215px;
-    margin-right: 215px;
     margin-top: 34px;
 }
 .section-card{
@@ -82,18 +84,13 @@ a{
 .main-button
 {font-weight: 500;
     font-size: 16px;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
     background: #F5F4FA;
     color: #212121;
 }
 
-.main-button:hover
-{
-    color: #FFFFFF;
-    background: #2196F3;
-}
 
 h3
 {font-size: 18px;
@@ -104,7 +101,7 @@ h3
 
 .card-name
 {font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 } 
@@ -134,11 +131,11 @@ span{color: #2196F3;}
 }
 .page-footer{
     background: #2F303A;
+    margin-top: 94px;
 }
 .footer-web{
     color: white;
 }
 .footer-web,.footer-adress,.footer-link{
     display: block;
-    padding-left: 215px;
 }

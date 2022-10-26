@@ -82,7 +82,7 @@ a:hover
 { 
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     color: #FFFFFF;
 }
 
@@ -118,7 +118,7 @@ a:hover
 {   
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;   
+    line-height: 1.71;   
     color: #757575;
     margin-top: 10px;
 }
@@ -189,6 +189,7 @@ span{color: #2196F3;}
 }
 .page-footer{
     background: #2F303A;
+    margin-top: 94px;
 }
 .footer-web{
     color: white;
