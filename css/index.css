@@ -15,7 +15,7 @@ a:hover
 {color: #2196F3;
 }
 
-.header-section{
+.header-section>.container{
     display: flex;
     align-items: center;
 }
