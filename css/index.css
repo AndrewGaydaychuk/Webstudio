@@ -5,7 +5,11 @@
 }
 body
 {font-family: 'Roboto';
-line-height: 1,71;
+line-height: 1.71;
+}
+
+section{
+    outline: solid green;
 }
 a
 {color: black;
@@ -14,7 +18,8 @@ text-decoration: none;
 a:hover
 {color: #2196F3;
 }
-
+    
+   /* section header */
 .header-section>.container{
     display: flex;
     align-items: center;
@@ -27,10 +32,9 @@ a:hover
     font-weight: 700;
     font-size: 26px;
     line-height: 1.87;
-    margin-left: 215px;
 }
-.header-address{
-    margin-right: 215px;
+.navigation{
+    margin-right: auto;
 }
 .hero-button,.header-logo,{
     color: #2196F3;
@@ -56,8 +60,13 @@ a:hover
 }    
 
 .work-title{
-    margin-top: 94px;
-}    
+    font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
 .work-list{
     display: flex;
     justify-content: center;
@@ -93,7 +102,8 @@ a:hover
 
 }      
 .hero-section{
-    background: #2F303A;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../images/hero.jpg);
+    /* background-image: url(../images/hero.jpg); */
     text-align: center;
     padding-top: 200px;
     padding-bottom: 280px;
@@ -109,6 +119,33 @@ a:hover
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.boss-div{
+    display: flex;
+}
+.box{
+    width: 270px;
+    height: 120px;
+}
+.box:nth-child(1){
+    background-image: url(../images/antenna\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box:nth-child(2){
+    background-image: url(../images/clock\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box:nth-child(3){
+    background-image: url(../images/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box:nth-child(4){
+    background-image: url(../images/astronaut\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .qualities-text
 {   
@@ -155,12 +192,33 @@ a:hover
     line-height: 1.19;      
     color: #757575;
     margin-top: 10px;
-}           
+}      
+.boxes:nth-child(1){
+    background-image: url(../images/triygolnik.jpg);
+}   
+.boxes:nth-child(2){
+    background-image: url(../images/bymagi.jpg);
+}
+.boxes:nth-child(3){
+    background-image: url(../images/rakyshka.jpg);
+}
+.boxes:nth-child(4){
+    background-image: url(../images/sopli.jpg);
+}
+.boxes:nth-child(5){
+    background-image: url(../images/listochki.jpg);
+}
+.boxes:nth-child(6){
+    background-image: url(../images/kubic.jpg);
+}
+.photo-list{
+    display: flex;
+}
 footer>a{  
     font-weight: 700;
     font-size: 26px;
     line-height:1.19;
-    color: #2196F3;
+    color: #11161a;
 }
 .footer-adress
 {
