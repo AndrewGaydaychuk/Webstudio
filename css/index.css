@@ -33,11 +33,21 @@ a:hover
     font-size: 26px;
     line-height: 1.87;
 }
+.header-logo{
+    color: #2196F3;
+}
+.header-address{
+    font-style: normal;
+}
 .navigation{
     margin-right: auto;
 }
 .hero-button,.header-logo,{
     color: #2196F3;
+}
+.hero-button{
+    border: none;
+    margin-top: 30px;
 }
 
 .header-pages
@@ -82,6 +92,17 @@ color: #212121;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    padding-left: 30px;
+}
+.contact-link:hover{
+    color:#2196F3 ;  
+}
+.contact-icon{
+    fill: currentColor;
+    margin-right: 10px;
+}
+.contact-icon:hover{
+    color: #2196F3;
 }
 .hero-title
 { 
@@ -127,6 +148,12 @@ color: #212121;
     width: 270px;
     height: 120px;
 }
+.team-section{
+    padding-top: 94px;
+}
+.work-section{
+    padding-top: 94px;
+}
 .box:nth-child(1){
     background-image: url(../images/antenna\ 1.png);
     background-repeat: no-repeat;
@@ -170,6 +197,23 @@ color: #212121;
     justify-content: center;
     
 }
+.socials{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    justify-content: center;
+}
+.socials-item{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    fill: #a5a0a0;
+
+}
+.socials-item:nth-child(1):hover{
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
 .team-image{
     max-width: 100%;
     height: auto;
@@ -177,6 +221,7 @@ color: #212121;
 .team-item{
     max-width: 270px;
     margin-left: 30px;
+    text-align: center;
 }
 .team-name
 {   
@@ -192,28 +237,33 @@ color: #212121;
     line-height: 1.19;      
     color: #757575;
     margin-top: 10px;
-}      
-.boxes:nth-child(1){
-    background-image: url(../images/triygolnik.jpg);
-}   
-.boxes:nth-child(2){
-    background-image: url(../images/bymagi.jpg);
 }
-.boxes:nth-child(3){
-    background-image: url(../images/rakyshka.jpg);
-}
-.boxes:nth-child(4){
-    background-image: url(../images/sopli.jpg);
-}
-.boxes:nth-child(5){
-    background-image: url(../images/listochki.jpg);
-}
-.boxes:nth-child(6){
-    background-image: url(../images/kubic.jpg);
-}
+
 .photo-list{
     display: flex;
 }
+.icon-div{
+    display: flex;
+}
+.icon-svg{
+    margin-left: 22px;
+}
+.const-title{
+    margin-top: 94px;
+}
+.const-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.const-item{
+    margin-left: 30px;
+    fill: #a5a0a0;
+}
+.const-item:nth-child(4):hover{
+    fill: #2196F3;
+}
+
 footer>a{  
     font-weight: 700;
     font-size: 26px;
@@ -227,6 +277,21 @@ footer>a{
     line-height:  1.71; 
     color: #a5a0a0;
 }
+.footer-li{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    fill: #FFFFFF;
+}
+.footer-li:nth-child(2){
+    fill: #FFFFFF;
+    background-color: #2196F3;
+}
+.socials-bombom{
+    display: flex;
+    gap: 20px;
+    border-radius: 50%;
+}
 footer>p
 {
     font-weight: 400;
@@ -234,9 +299,15 @@ footer>p
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
 }  
-span{color: #2196F3;}
+.footer-div{
+    margin-left: 516px;
+    padding-top: 72px;
+}
 .footer-link{
     color: rgba(255, 255, 255, 0.6);
+}
+.bombombom{
+    color: #FFFFFF;
 }
 .page-footer{
     background: #2F303A;
