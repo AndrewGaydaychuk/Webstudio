@@ -59,22 +59,52 @@
         </div>
     </header>
     <main>
+        <div class="overlay is-hidden" data-backdrop>
+        <form class="modal-window is-hidden">
+            <button type="button" class="modal-button" data-close-modal>close</button>
+            <h1 class="modal-h">Залиште свої дані, ми вам передзвонимо</h1>
+            <div class="modal-div">
+                <h4 class="pikomodal-h">Ім'я</h4>
+                <svg class="modal-svg" width="12" height="12">
+                    <use class="modal-use" href="./svg/symbol-defs.svg#icon-man">
+                    </use>                   
+                </svg>
+                <input type="text" class="modal-imput">
+            </div>
+            <div class="modal-div">
+                <h4 class="pikomodal-h">Телефон</h4>
+                <svg class="modal-svg" width="12" height="12">
+                    <use class="modal-use" href="./svg/symbol-defs.svg#icon-telephone">
+                    </use>                   
+                </svg>
+                <input type="text" class="modal-imput">
+            </div>
+            <div class="modal-div">
+                <h4 class="pikomodal-h">Пошта</h4>
+                <svg class="modal-svg" width="12" height="12">
+                    <use class="modal-use" href="./svg/symbol-defs.svg#icon-poshta">
+                    </use>                   
+                </svg>
+                <input type="text" class="modal-imput">
+            </div>
+            <div>
+                <h4 class="pikomodal-h">Коментар</h4>
+                <input type="text" class="modal-gigaimput">
+            </div>
+            <h3 class="mikromodal-h">Погоджуюся з розсилкою та приймаю <span class="forblue">умови договору</span></h3>
+            <button type="button" class="modal-bluebutton">Відправити</button>
+        </form>
+        </div>
         <!-- Секція герой -->
         <section class="hero-section">
             <div class="container">
                 <h1 class="hero-title">Eфективні рішення для вашого бізнесу</h1>
-                <button class="hero-button" type="button">Замовити послугу</button>
+                <button class="hero-button" type="button" data-open-modal>Замовити послугу</button>
             </div>
         </section>
         <!-- Секція 1 -->
         <section class="qualities-section">
             <div class="container">
-                <div class="boss-div">
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                    <div class="box"></div>
-                </div>
                 <ul class="qualities-list">
                     <li class="qualities-item">
                         <h3 class="qualities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -109,7 +139,7 @@
             </div>
             <h2 class="work-title">Чим ми займаємося</h2>
             <ul class="work-list">
-                <li class="work-item"><img class="work-ing" src="./images/tablet.jpg" alt="Стіл з комп'ютером"></li>
+                <div class="work-div"><li class="work-item"><img class="work-ing" src="./images/tablet.jpg" alt="Стіл з комп'ютером"></li></div>
                 <li class="work-item"><img class="work-ing" src="./images/phonetablet.jpg"
                         alt="Людина з телефоном сидить біля комп'ютера"></li>
                 <li class="work-item"><img class="work-ing" src="./images/tabletrainbow.jpg"
@@ -293,6 +323,15 @@
     </section>  
     <footer class="page-footer">
             <div class="container">
+                            
+                            <div class="fotter-container">
+                            <a class="footer-web" href="./index.html"><span class="footer-logo">Web</span>Studio</a>
+                            <address>
+                                <p class="footer-adress">м. Київ, пр-т Лесі Українки, 26</p>
+                                <p class="footer-link">info@example.com</p>
+                                <p class="footer-link">+38 099 111 11 11</p>
+                            </address>
+                            </div>
                             <div class="footer-div">
                                 <h3 class="bombombom">
                                     приєднуйтесь
@@ -324,14 +363,47 @@
                                     </li>
                                 </ul>
                             </div>
-                            <a class="footer-web" href="./index.html"><span class="footer-logo">Web</span>Studio</a>
-                            <address>
-                                <p class="footer-adress">м. Київ, пр-т Лесі Українки, 26</p>
-                                <p class="footer-link">info@example.com</p>
-                                <p class="footer-link">+38 099 111 11 11</p>
-                            </address>
+                            <div class="footermail-container">
+                            <h3 class="footer-h">підпишітся на розсилку</h3>
+                            <input type="text" class="footer-imput">
+                            <div class="forbutton-div">
+                            <button class="footer-button" type="button">
+                                Підписатись
+                            </button>
+                            <svg class="button-svg" width="24" height="24">
+                                <use class="button-use" href="./svg/symbol-defs.svg#icon-telegram">
+                                </use>
+                            </svg>
+                            </div>
+                            </div>
             </div>
     </footer>
-</body>
+    <script>
+        const refs = {
+          openModalBtn: document.querySelector("[data-open-modal]"),
+          closeModalBtn: document.querySelector("[data-close-modal]"),
+          backdrop: document.querySelector("[data-backdrop]"),
+        };
 
+        refs.openModalBtn.addEventListener("click", toggleModal);
+        refs.closeModalBtn.addEventListener("click", toggleModal);
+
+        refs.backdrop.addEventListener("click", logBackdropClick);
+
+        function toggleModal() {
+          refs.backdrop.classList.toggle("is-hidden");
+
+          if(document.body.style.overflow == 'hidden'){
+            document.body.style.overflow = 'visible';
+          }
+          else{
+            document.body.style.overflow = 'hidden';
+          }
+        }
+
+        function logBackdropClick() {
+          console.log("Це клік в бекдроп");
+        }
+      </script>
+</body>
 </html>
