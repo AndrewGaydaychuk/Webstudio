@@ -1,0 +1,95 @@
+footer>a{  
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    color: #11161a;
+}
+.footer__adress
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height:  1.71; 
+    color: #a5a0a0;
+}
+.footer__h{
+    color: #FFFFFF;
+    padding-left: 0;
+    text-align: left;
+}
+.footer__li{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    fill: #FFFFFF;
+}
+.footer__li:nth-child(2){
+    fill: #FFFFFF;
+    background-color: #2196F3;
+}
+footer>.container{
+    display: flex;
+}
+.footer__button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    margin-top: 36px;
+}
+.footer__div{
+    margin-left: 70px;
+}
+.footer__imput{
+    background-color:  #2F303A;
+    width: 358px;
+    height: 58px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    margin-right: 12px;
+    padding-left: 16px;
+}
+.footer__container{
+    margin-left: 93px;
+}
+.footer__link{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer__text{
+    color: #FFFFFF;
+}
+.page__footer{
+    background: #2F303A;
+    margin-top: 94px;
+}
+.footer__web{
+    color: white;
+}
+.button__use{
+    fill: #FFFFFF;
+
+}
+.button__svg{
+    margin-left: 150px;
+}
+.div__forbutton{
+    margin-left: 370px;
+    margin-top: 0px;
+}
+.footer__web,.footer__adress,.footer__link{
+    display: block;
+}
+.socials__footer{
+    display: flex;
+    gap: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+footer>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}  
