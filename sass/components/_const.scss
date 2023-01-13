@@ -1,0 +1,16 @@
+.const__title{
+    margin-top: 94px;
+}
+.const__list{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.const__item{
+    margin-left: 30px;
+    fill: #a5a0a0;
+}
+.const__item:hover{
+    fill: #2196F3;
+    transition: 500ms;
+}
