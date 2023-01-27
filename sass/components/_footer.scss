@@ -2,17 +2,17 @@ footer>a{
     font-weight: 700;
     font-size: 26px;
     line-height:1.19;
-    color: #11161a;
+    color: $black-color;
 }
 .footer__adress
 {
     font-weight: 400;
     font-size: 14px;
     line-height:  1.71; 
-    color: #a5a0a0;
+    color: $halfwhite-color;
 }
 .footer__h{
-    color: #FFFFFF;
+    color: $second-color;
     padding-left: 0;
     text-align: left;
 }
@@ -20,18 +20,18 @@ footer>a{
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    fill: #FFFFFF;
+    fill: $second-color;
 }
 .footer__li:nth-child(2){
-    fill: #FFFFFF;
-    background-color: #2196F3;
+    fill: $second-color;
+    background-color: $accent;
 }
 footer>.container{
     display: flex;
 }
 .footer__button{
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: $second-color;
+    background-color: $accent;
     border: none;
     width: 200px;
     height: 50px;
@@ -42,7 +42,7 @@ footer>.container{
     margin-left: 70px;
 }
 .footer__imput{
-    background-color:  #2F303A;
+    background-color: $black-color;
     width: 358px;
     height: 58px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -58,17 +58,17 @@ footer>.container{
     color: rgba(255, 255, 255, 0.6);
 }
 .footer__text{
-    color: #FFFFFF;
+    color: $second-color;
 }
 .page__footer{
-    background: #2F303A;
+    background: $black-color;
     margin-top: 94px;
 }
 .footer__web{
-    color: white;
+    color: $second-color;
 }
 .button__use{
-    fill: #FFFFFF;
+    fill: $second-color;
 
 }
 .button__svg{

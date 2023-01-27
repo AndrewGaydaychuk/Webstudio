@@ -14,7 +14,7 @@
     max-width: 270px;
     margin-left: 30px;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: $second-color;
 }
 .team__name
 {   
@@ -28,12 +28,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;      
-    color: #757575;
+    color: $gray-color;
     margin-top: 10px;
 }
 .team__section{
     margin-top: 94px;
-    background-color:  #F5F4FA;;
+    background-color:  $third-color;
 }
 .icon-div{
     display: flex;
@@ -45,12 +45,12 @@
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    fill: #a5a0a0;
+    fill: $halfwhite-color;
 
 }
 .socials__item:hover{
-    background-color: #2196F3;
-    fill: #FFFFFF;
+    background-color: $accent;
+    fill: $second-color;
     transition: 500ms;
 }
 .socials{

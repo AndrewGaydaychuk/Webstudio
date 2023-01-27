@@ -8,9 +8,10 @@
 }
 .const__item{
     margin-left: 30px;
-    fill: #a5a0a0;
-}
-.const__item:hover{
-    fill: #2196F3;
+    fill: $halfwhite-color;
+    &:hover{
+    fill: $accent;
     transition: 500ms;
+    }
 }
+
