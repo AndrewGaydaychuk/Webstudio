@@ -24,7 +24,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   outline: solid red;
-  width: 450px;
+  width: 480px;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -35,6 +35,10 @@ body {
   .container {
     width: 1200px;
   }
+}
+
+img {
+  width: 100%;
 }
 
 /* section header */
