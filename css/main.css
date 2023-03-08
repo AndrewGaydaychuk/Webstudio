@@ -261,8 +261,14 @@ img {
   margin-top: 10px;
 }
 
-.work__section {
+.work {
   padding-top: 94px;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .work {
+    display: block;
+  }
 }
 
 h2 {
@@ -323,6 +329,10 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 
 .team__image {
@@ -338,6 +348,11 @@ h2 {
 @media screen and (min-width: 1200px) {
   .team__item {
     max-width: 270px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__item {
+    width: 354px;
   }
 }
 
@@ -357,8 +372,13 @@ h2 {
 }
 
 .team__section {
-  margin-top: 94px;
+  margin-top: 60px;
   background-color: #F5F4FA;
+}
+@media screen and (min-width: 1200px) {
+  .team__section {
+    margin-top: 94px;
+  }
 }
 
 .icon-div {
@@ -390,18 +410,43 @@ h2 {
 }
 
 .const__title {
-  margin-top: 94px;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .const__list {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.const__section {
+  padding: 60px 0;
+}
+@media screen and (min-width: 1200px) {
+  .const__section {
+    padding-top: 94px;
+  }
 }
 
 .const__item {
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  width: 210px;
   margin-left: 30px;
   fill: #a5a0a0;
+}
+@media screen and (min-width: 768px) {
+  .const__item {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .const__item {
+    width: 170px;
+  }
 }
 .const__item:hover {
   fill: #2196F3;
