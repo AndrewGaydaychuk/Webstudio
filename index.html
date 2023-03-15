@@ -53,6 +53,10 @@
 
                 </a>
             </address>
+            <svg class="header__menu" data-open-menu width="40" height="40">
+                <use href="./symbol-defs.svg#icon-menu">
+                </use>
+            </svg>
         </div>
     </header>
     <main>
@@ -202,6 +206,27 @@
             </li>
         </ul>
     </section> 
+    <div class="overlay-menu is-hidden" data-overlay>
+        <div class="menu">
+          <button type="button" data-close-menu>
+            X
+          </button>
+          <ul class="menu-list">
+            <li>
+              <a href="">Головна</a>
+            </li>
+            <li>
+              <a href="">Галерея</a>
+            </li>
+            <li>
+              <a href="">Новини</a>
+            </li>
+            <li>
+              <a href="">Контакти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
  </main> 
     <footer class="page__footer">
             <div class="container">
@@ -286,6 +311,20 @@
         function logBackdropClick() {
           console.log("Це клік в бекдроп");
         }
+        const refsMenu = {
+    openMenuBtn: document.querySelector("[data-open-menu]"),
+    closeMenuBtn: document.querySelector("[data-close-menu]"),
+    overlay: document.querySelector("[data-overlay]"),
+};
+
+refsMenu.openMenuBtn.addEventListener("click", toggleMenu);
+refsMenu.closeMenuBtn.addEventListener("click", toggleMenu);
+
+
+function toggleMenu() {
+    refsMenu.overlay.classList.toggle("is-hidden");
+}
+
       </script>
 </body>
 </html>

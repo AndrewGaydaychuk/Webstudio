@@ -45,10 +45,7 @@ img {
 .header > .container {
   display: flex;
   align-items: center;
-}
-
-.header__pages {
-  display: flex;
+  justify-content: space-between;
 }
 
 .header__web {
@@ -68,6 +65,12 @@ img {
 
 .header__address {
   font-style: normal;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__address {
+    display: block;
+  }
 }
 
 .navigation {
@@ -83,6 +86,12 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__pages {
+    display: flex;
+  }
 }
 
 .header__page {
@@ -147,6 +156,12 @@ img {
 .header__icon:hover {
   color: #2196F3;
   transition: 500ms;
+}
+
+@media screen and (min-width: 768px) {
+  .header__menu {
+    display: none;
+  }
 }
 
 .main-lists {

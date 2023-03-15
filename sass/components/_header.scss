@@ -2,13 +2,8 @@
    .header>.container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.header__pages{
-    display: flex;
-}
-
-
-
 .header__web
 {font-family: 'Raleway';
     font-weight: 700;
@@ -26,6 +21,10 @@
 
 .header__address{
     font-style: normal;
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    }
 }
 .navigation{
     margin-right: auto;
@@ -41,6 +40,10 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
 }
 .header__page{
     margin-left: 54px;
@@ -102,5 +105,10 @@
     &:hover{
         color: $accent;
         transition: 500ms;
+    }
+}
+.header__menu{
+    @media screen and (min-width: 768px) {
+        display: none;
     }
 }
