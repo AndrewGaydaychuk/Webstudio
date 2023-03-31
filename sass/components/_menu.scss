@@ -17,14 +17,7 @@
     height: 100%;
     background-color: #fff;
 }
-.m__menu{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 47px;
-    color: #212121;
-    margin-left: 40px;
-}
+
 .m__span{
     font-family: 'Roboto';
     font-style: normal;
@@ -38,5 +31,25 @@
     margin-left: 20px;
 }
 .m__link{
-    margin: 32px;
+    position: absolute;
+    width: 296px;
+    height: 40px;
+    left: 40px;
+    top: 562px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.menu__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
